@@ -1,0 +1,62 @@
+{
+    "Features":  {
+                     "Git":  true,
+                     "Menu":  true,
+                     "Prompt":  true,
+                     "SSH":  true,
+                     "VirtualEnv":  true
+                 },
+    "General":  {
+                    "ProfileMode":  "Standard",
+                    "LogPath":  "C:\\Users\\Charles\\PowerShell\\Logs",
+                    "InitializedDate":  "2024-12-02"
+                },
+    "Git":  {
+                "DefaultMergeTools":  {
+                                          "Tool":  "vscode",
+                                          "Path":  "code --wait --merge"
+                                      },
+                "Aliases":  {
+                                "last":  "log -1 HEAD",
+                                "st":  "status",
+                                "lg":  "log --color --graph --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)\u003c%an\u003e%Creset\" --abbrev-commit",
+                                "ci":  "commit",
+                                "br":  "branch",
+                                "co":  "checkout"
+                            },
+                "Hosts":  {
+                              "gitlab":  {
+                                             "Email":  "",
+                                             "User":  "",
+                                             "SigningKey":  ""
+                                         },
+                              "azure":  {
+                                            "Email":  "",
+                                            "User":  "",
+                                            "SigningKey":  ""
+                                        },
+                              "github":  {
+                                             "Email":  "",
+                                             "User":  "",
+                                             "SigningKey":  ""
+                                         }
+                          }
+            },
+    "SSH":  {
+                "Directory":  "$env:USERPROFILE\\.ssh",
+                "BackupRetentionDays":  30,
+                "EncryptBackups":  true,
+                "DefaultPermissions":  "0600"
+            },
+    "VirtualEnv":  {
+                       "RequirementsFile":  "requirements.txt",
+                       "DefaultName":  "venv",
+                       "AutoActivate":  true
+                   },
+    "UI":  {
+               "ShowExecutionTime":  true,
+               "ShowGitInfo":  true,
+               "PromptTheme":  "Default",
+               "ShowVirtualEnv":  true
+           }
+}
