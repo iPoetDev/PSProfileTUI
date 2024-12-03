@@ -1,0 +1,20 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/yourusername/PSProfileTUI/discussions
+    about: Ask questions and discuss with other community members
+  - name: GitHub Communities - Issue & PR Templates
+    url: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests
+    about: Customize the templates for contributors when Issue or PR are open with defaults/standard approaches. Issue forms over manual markdown.
+  - name: GitHub Community Support
+    url: https://github.com/orgs/community/discussions
+    about: Please ask and answer questions here.
+  - name: GitHub Security Bug Bounty
+    url: https://bounty.github.com/
+    about: Please report security vulnerabilities here.
+
+# EDITING:
+# On GitHub, on repo template copy, these files will be duplicated so
+# 1. Edit this file and replace  https://github.com/{org}/{repo-name}
+# 2. Update the individual links in .github/ISSUE_TEMPLATE/config.yml
+# 3. Commit and push
