@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+#file: noinspection YAMLSchemaValidation
 contact_links:
   - name: Question or Discussion
     url: https://github.com/yourusername/PSProfileTUI/discussions
@@ -13,6 +13,7 @@ contact_links:
     url: https://bounty.github.com/
     about: Please report security vulnerabilities here.
 
+blank_issues_enabled: false
 # EDITING:
 # On GitHub, on repo template copy, these files will be duplicated so
 # 1. Edit this file and replace  https://github.com/{org}/{repo-name}
